@@ -1,0 +1,44 @@
+copy o arquivo .gitignore
+
+INICIALZAR 
+git init
+git config --global user.name "Flavio Avellar"
+get config --global user.email "flaviodacs@hotmail.com"
+
+ATUALIZAR
+get status
+git add .
+git commit -m "mensagem"
+
+VISULAIZAR LOG
+git log
+git log --oneline
+
+UPLOAD
+associar o repositórico local com o remoto
+git remote add origin https://github.com/flaviodacs/NOMEPROJETO.git
+
+git push -u origin master
+
+TRANSFERIR O REPOSITÓRIO REMOTO  PARA O LOCAL
+gti clone https://github.com/flaviodacs/NOMEPROJETO.git
+
+TRAZER A VERSAO ANTERIOR
+sem alteração nenhuma
+git checkout HEAD
+voltar para o commit atual
+git checkout master
+
+ATULIZAR o REPORSITÓRIO REMOTO COMO O LOCAL
+git pull origin naster
+
+
+VOLTAR PROJETO
+git clean -df
+git checkout -- .
+
+REMOVER o ÚLTIMO COMMIT
+git reset --soft HEAD
+
+MISCELANIA
+Sair do editor VIM tecle Esc e depois :q!
