@@ -32,7 +32,6 @@ git checkout master
 ATULIZAR o REPORSITÓRIO REMOTO COMO O LOCAL
 git pull origin naster
 
-
 VOLTAR PROJETO
 git clean -df
 git checkout -- .
