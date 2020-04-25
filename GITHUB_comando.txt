@@ -20,8 +20,9 @@ git remote add origin https://github.com/flaviodacs/NOMEPROJETO.git
 
 git push -u origin master
 
-TRANSFERIR O REPOSITÓRIO REMOTO  PARA O LOCAL
-gti clone https://github.com/flaviodacs/NOMEPROJETO.git
+CLONE
+git clone PASTAORIGEM PASTADESTINO
+git clone URLGITHUB PASTADESTINO
 
 TRAZER A VERSAO ANTERIOR
 sem alteração nenhuma
@@ -30,14 +31,21 @@ voltar para o commit atual
 git checkout master
 
 ATULIZAR o REPORSITÓRIO REMOTO COMO O LOCAL
-git pull origin naster
+git pull origin master
 
 VOLTAR PROJETO
 git clean -df
 git checkout -- .
 
+RESTAURAR ARQUIVO / PROJETO ANTES DO COMMIT
+git checaout nome do arquivo - volta o arquivo
+git reset --hard
+
 REMOVER o ÚLTIMO COMMIT
 git reset --soft HEAD
+
+
+
 
 MISCELANIA
 Sair do editor VIM tecle Esc e depois :q!
