@@ -1,5 +1,6 @@
 # Criação do Projeto
 - Criar o projeto no GITHUB
+- Configurar o .gitignore
 - Criar a Brench Master e Develop
 - Fazer o Clone do projeto
 - Criar Brench da Tarefa
