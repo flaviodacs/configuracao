@@ -3,7 +3,7 @@ copy o arquivo .gitignore
 INICIALZAR 
 git init
 git config --global user.name "Flavio Avellar"
-get config --global user.email "flaviodacs@hotmail.com"
+git config --global user.email "flaviodacs@hotmail.com"
 
 ATUALIZAR
 get status
